@@ -5,7 +5,7 @@ import { Module, VuexModule, Mutation } from 'vuex-module-decorators'
   stateFactory: true,
   namespaced: true,
 })
-export default class MyModule extends VuexModule {
+export default class Example extends VuexModule {
   wheels = 2
 
   @Mutation
